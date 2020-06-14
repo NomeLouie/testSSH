@@ -20,3 +20,5 @@ git使用
 # 同时更新多个文件
  git add ./
  git commit -m
+# 直接提交
+git commit --all -m "这是一次性的操作"
