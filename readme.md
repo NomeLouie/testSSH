@@ -14,5 +14,6 @@ git使用
  git add ./readme.md
  2,git commit -m "完成第二次提交"
 
- //第三次提交
- 
+ //第三次提交 未完成
+ 4,判断当前状态
+  git status  (红色 modefied,工作区未同步,绿色modefied,库版本未提交)
