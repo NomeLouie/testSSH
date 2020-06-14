@@ -22,3 +22,6 @@ git使用
  git commit -m
 # 直接提交
 git commit --all -m "这是一次性的操作"
+## 查看日志
+ - 'git log' 查看历史提交的日志
+ - 'git log --online' 查看简洁版日志
