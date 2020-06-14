@@ -25,3 +25,5 @@ git commit --all -m "这是一次性的操作"
 ## 查看日志
  - 'git log' 查看历史提交的日志
  - 'git log --online' 查看简洁版日志
+## 恢复之前提交代码
+ - git reset --hard Head~0
