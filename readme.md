@@ -32,3 +32,5 @@ git commit --all -m "这是一次性的操作"
 # 分支开发
 - 创建分支
  +git branch dev
+ +git branch 查看分支
+ +git checkout dev 选择dev分支开发
