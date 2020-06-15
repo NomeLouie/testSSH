@@ -2,9 +2,35 @@
 <html lang="zh">
 <head>
 	<meta charset="UTF-8">
-	<title>演示使用文件</title>
+	<title>Document</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#btn').click(function(){
+				// json传参
+				var obj = {
+					username :$('#username').val(),
+					password : $('#password').val()
+				}	
+				$.ajax({
+					type:'post',
+					url:'http://localhost:3000/login',
+					contentType : 'application/json',
+					dataType : 'text',
+					data: JSON.stringify(obj),
+					success:function(data){
+						console.log(data);
+					}
+				})
+			})
+		})
+	</script>
 </head>
 <body>
-	gitHub提交代码
+	<form action="http://localhost:3000/login" method="get">	
+		用户名: <input type="text" name="username" id="username" > <br>	
+		密  码: <input type="password" name="password" id="password" >	<br>
+		<input type="button" id="btn" value="登录">
+	</form>
 </body>
 </html>
