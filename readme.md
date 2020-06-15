@@ -34,3 +34,15 @@ git commit --all -m "这是一次性的操作"
  +git branch dev
  +git branch 查看分支
  +git checkout dev 选择dev分支开发
+-合并分支
+ git marge dev	
+-删除分支
+ * 'git branch -d dev'
+
+#上传到服务器GitHub
+ ## git push [github上传网址] master
+#从服务器上下载
+ *'git pull [GuiHub网址]'
+#clone模式
+git clone [网址] Clone into 目标文件
+
