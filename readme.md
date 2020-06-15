@@ -38,11 +38,15 @@ git commit --all -m "这是一次性的操作"
  git marge dev	
 -删除分支
  * 'git branch -d dev'
-
+# https提交方式
 #上传到服务器GitHub
  ## git push [github上传网址] master
 #从服务器上下载
- *'git pull [GuiHub网址]'
+ *'git pull [https://github.com/NomeLouie/test.git]' master
 #clone模式
-git clone [网址] Clone into 目标文件
-
+git clone [网址] Clone 
+## ssh方式上传代码
+-公钥 私钥 两者之间是有关联的
+-生成公钥和私钥
+	+找到生成的公钥,提交GitHub上	
+# 正确使用md格式文件
