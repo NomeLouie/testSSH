@@ -54,4 +54,5 @@ git clone [网址] Clone
 ## 解决冲突 
  - 先pull到本地,在本地解决冲突之后,在push提交
  - pull和push 上传下载代码的简写方式
+ -push和pull 的-u参数操作,加上-u参数操作,那么下一次push/pull时,直接书写'git push'即可
 # 正确使用md格式文件
