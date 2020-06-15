@@ -48,5 +48,10 @@ git clone [网址] Clone
 ## ssh方式上传代码
 -公钥 私钥 两者之间是有关联的
 -生成公钥和私钥
-	+找到生成的公钥,提交GitHub上	
+	+找到生成的公钥,提交GitHub上
+	+ 'git push git@github.com:NomeLouie/testSSH.git mster'	
+	+下载操作 'git pull git@github.com:NomeLouie/testSSH.git master'
+## 解决冲突 
+ - 先pull到本地,在本地解决冲突之后,在push提交
+ - pull和push 上传下载代码的简写方式
 # 正确使用md格式文件
